@@ -1,0 +1,134 @@
+D:\prg\git\gittest>git init
+Initialized empty Git repository in D:/prg/git/gittest/.git/
+
+D:\prg\git\gittest>git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+D:\prg\git\gittest>git commit -m "first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'admin@DESKTOP-89R5KFI.(none)')
+
+D:\prg\git\gittest>git remote add origin https://github.com/kurtchen1988/pythonTec.git
+
+D:\prg\git\gittest>git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/kurtchen1988/pythonTec.git'
+
+
+D:\prg\git\gittest>python -d
+Python 3.7.1 (v3.7.1:260ec2c36a, Oct 20 2018, 14:05:16) [MSC v.1915 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> ^Z
+
+
+D:\prg\git\gittest>python -O
+Python 3.7.1 (v3.7.1:260ec2c36a, Oct 20 2018, 14:05:16) [MSC v.1915 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> ^Z
+
+
+D:\prg\git\gittest>python -S
+Python 3.7.1 (v3.7.1:260ec2c36a, Oct 20 2018, 14:05:16) [MSC v.1915 32 bit (Intel)] on win32
+>>> ^Z
+
+
+D:\prg\git\gittest>python -V
+Python 3.7.1
+
+D:\prg\git\gittest>^Z
+D:\prg\git\gittest>python -X
+Argument expected for the -X option
+usage: python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+D:\prg\git\gittest>python -c cmd
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+NameError: name 'cmd' is not defined
+
+D:\prg\git\gittest>python -c help
+
+D:\prg\git\gittest>python file
+python: can't open file 'file': [Errno 2] No such file or directory
+
+
+>>> input('hello')
+helloworld
+'world'
+>>>
+>>> print('helloworld')
+helloworld
+
+>>> str.format('hello')
+'hello'
+
+
+>>> "{},{}".format(10,20)
+'10,20'
+>>> "{1}:{0}".format(10,20)
+'20:10'
+>>> "姓名:{};年龄:{}".format("zhangsan",20)
+'姓名:zhangsan;年龄:20'
+>>> "{:.2f}".format(10.6789)
+'10.68'
+
+>>> "{:b}".format(100)
+'1100100'
+>>>
+>>>
+>>> "{:x}".format(100)
+'64'
+>>> "{:8}:{:8}".format(10,20)
+'      10:      20'
+
+>>> """这是注释"""
+'这是注释'
+
+>>> import keyword
+>>>
+>>>
+>>>
+>>> keyword.kwlist
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+
+>>> counter =20
+>>> print(counter)
+20
+
+
+>>> a=b=c=1
+>>> a
+1
+>>> b
+1
+>>> c
+1
+
+>>> a,b,c=1,2,"demo"
+>>> a
+1
+>>> b
+2
+>>> c
+'demo'
+
+if true:
+	print("true") 
+else:
+	print("false")
+
+
+
+
+
+

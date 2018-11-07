@@ -1,0 +1,149 @@
+>>> a=10
+>>> b=21
+>>> a+b
+31
+>>> a-b
+-11
+>>> a*b
+210
+>>> a/b
+0.47619047619047616
+>>> b/a
+2.1
+>>> b%a
+1
+>>> a**b
+1000000000000000000000
+>>> a//b
+0
+>>> b//a
+2
+
+>>> a=10
+>>> b=20
+>>> a==b
+False
+>>> a!=b
+True
+>>> a>b
+False
+>>> a<b
+True
+>>> a>=b
+False
+>>> a<=b
+True
+
+>>> c=a+b
+>>> c
+30
+>>> c+=a
+>>> c
+40
+>>> c-=a
+>>> c
+30
+>>> c*=a
+>>> c
+300
+>>> c/=a
+>>> c
+30.0
+>>> c%=a
+>>> c
+0.0
+>>> c**=a
+>>> c
+0.0
+>>> c//=a
+>>> c
+0.0
+
+>>> a=10
+>>> b=20
+>>> a and b
+20
+>>> a or b
+10
+>>> (a and b)
+20
+>>> (a or b)
+10
+>>> not(a and b)
+False
+
+>>> a=60
+>>> b=13
+>>> (a & b)
+12
+>>> (a | b)
+61
+>>> (a ^ b)
+49
+>>> (~a)
+-61
+>>> a<<2
+240
+>>> a>>2
+15
+
+>>> x = 1
+>>> y = 2
+>>> x is y
+False
+>>> x is not y
+True
+
+>>> a = 10
+>>> type(a)
+<class 'int'>
+>>> isinstance(a,int)
+True
+
+>>> bin(255)
+'0b11111111'
+>>> oct(255)
+'0o377'
+>>> hex(255)
+'0xff'
+>>> a=0b10
+>>> a
+2
+>>> a=0o10
+>>> a
+8
+>>> a=0x10
+>>> a
+16
+
+>>> float(x)
+1.0
+
+>>> str(x)
+'1'
+>>> repr(x)
+'1'
+
+>>> a=[('a','AAA'),('b','BBBB')]
+>>> a
+[('a', 'AAA'), ('b', 'BBBB')]
+>>> dict(a)
+{'a': 'AAA', 'b': 'BBBB'}
+>>> m=dict(a)
+>>> m['b']
+'BBBB'
+>>> type(m)
+<class 'dict'>
+
+
+
+
+first=1
+while first<=9:
+    second=1
+    while second<=first:
+        pro=first*second
+        print(str(first)+"*"+str(second)+"="+str(pro),end="\t")
+        second+=1
+    print("")
+    first+=1

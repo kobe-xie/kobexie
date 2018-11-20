@@ -1,6 +1,4 @@
-#__Author__: Panax Wong
 # encoding utf=8
-# 定义展示系统功能的函数
 def showUI():
     print("= " * 8,end="")
     print("  学员管理系统  ",end="")
